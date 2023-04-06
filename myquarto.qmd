@@ -1,0 +1,80 @@
+---
+title: "myquarto"
+author: "Ani Ruhil"
+format: 
+  revealjs:
+    menu:
+      side: right
+      width: wide
+    auto-animate-easing: ease-in-out
+    auto-animate-unmatched: false
+    auto-animate-duration: 0.8
+    auto-stretch: false
+    incremental: true
+    smaller: true
+    scrollable: true
+    theme: themes/ani.scss
+    slide-number: true
+    show-slide-number: print    
+    code-fold: true
+    reference-location: margin
+    logo: imgs/voin.png
+    footer: "@aniruhil"
+    preview-links: auto
+    auto-slide: 5000
+    loop: true
+    embed-resources: true
+    progress: false
+    history: true
+    chalkboard: true
+    multiplex: true
+#      url: 'https://myserver.example.com/'
+#      id: 'abcde12345'
+#      secret: 'fghij67890'
+    template-partials:
+      - title-slide.html
+    transition: slide
+    background-transition: fade
+    parallax-background-image: imgs/voin.png
+    parallax-background-size: "2100px 900px"
+    parallax-background-horizontal: 200
+    parallax-background-vertical: 50
+    navigation-mode: vertical
+    controls-layout: bottom-right
+    controls-tutorial: true
+    touch: false
+    controls: true
+    revealjs-plugins:
+     - fullscreen
+title-slide-attributes:
+  data-background-image: /path/to/title_image.png
+  data-background-size: contain
+  data-background-opacity: "0.5"
+
+
+---
+
+## Quarto
+
+Quarto enables you to weave together content and executable code into a finished presentation. To learn more about Quarto presentations see <https://quarto.org/docs/presentations/>.
+
+::: aside
+Some additional commentary of more peripheral interest.
+:::
+
+## Bullets
+
+When you click the **Render** button a document will be generated that includes:
+
+-   Content authored with markdown
+-   Output from executable code
+
+## Code
+
+When you click the **Render** button a presentation will be generated that includes both content and the output of embedded code. You can embed code like this:
+
+```{r}
+1 + 1
+```
+
+
